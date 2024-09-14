@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3DA8DED2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */; };
+		A3DA8DEF2C963E8D008C6CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */; };
+		A3DA8DF12C963E8E008C6CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DA8DF02C963E8E008C6CEF /* Assets.xcassets */; };
+		A3DA8DF42C963E8E008C6CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DA8DF32C963E8E008C6CEF /* Preview Assets.xcassets */; };
+		A3DA8DFE2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DFD2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift */; };
+		A3DA8E082C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8E072C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift */; };
+		A3DA8E0A2C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8E092C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3DA8DFA2C963E8F008C6CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DA8DE12C963E8D008C6CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DA8DE82C963E8D008C6CEF;
+			remoteInfo = Zilch_Dice_Game;
+		};
+		A3DA8E042C963E8F008C6CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DA8DE12C963E8D008C6CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DA8DE82C963E8D008C6CEF;
+			remoteInfo = Zilch_Dice_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3DA8DE92C963E8D008C6CEF /* Zilch_Dice_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zilch_Dice_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameApp.swift; sourceTree = "<group>"; };
+		A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3DA8DF02C963E8E008C6CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3DA8DF32C963E8E008C6CEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3DA8DF92C963E8F008C6CEF /* Zilch_Dice_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zilch_Dice_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DA8DFD2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameTests.swift; sourceTree = "<group>"; };
+		A3DA8E032C963E8F008C6CEF /* Zilch_Dice_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zilch_Dice_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DA8E072C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameUITests.swift; sourceTree = "<group>"; };
+		A3DA8E092C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3DA8DE62C963E8D008C6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8DF62C963E8F008C6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8E002C963E8F008C6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3DA8DE02C963E8D008C6CEF = {
+			isa = PBXGroup;
+			children = (
+				A3DA8DEB2C963E8D008C6CEF /* Zilch_Dice_Game */,
+				A3DA8DFC2C963E8F008C6CEF /* Zilch_Dice_GameTests */,
+				A3DA8E062C963E8F008C6CEF /* Zilch_Dice_GameUITests */,
+				A3DA8DEA2C963E8D008C6CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3DA8DEA2C963E8D008C6CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA8DE92C963E8D008C6CEF /* Zilch_Dice_Game.app */,
+				A3DA8DF92C963E8F008C6CEF /* Zilch_Dice_GameTests.xctest */,
+				A3DA8E032C963E8F008C6CEF /* Zilch_Dice_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3DA8DEB2C963E8D008C6CEF /* Zilch_Dice_Game */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */,
+				A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */,
+				A3DA8DF02C963E8E008C6CEF /* Assets.xcassets */,
+				A3DA8DF22C963E8E008C6CEF /* Preview Content */,
+			);
+			path = Zilch_Dice_Game;
+			sourceTree = "<group>";
+		};
+		A3DA8DF22C963E8E008C6CEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA8DF32C963E8E008C6CEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3DA8DFC2C963E8F008C6CEF /* Zilch_Dice_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA8DFD2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift */,
+			);
+			path = Zilch_Dice_GameTests;
+			sourceTree = "<group>";
+		};
+		A3DA8E062C963E8F008C6CEF /* Zilch_Dice_GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA8E072C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift */,
+				A3DA8E092C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift */,
+			);
+			path = Zilch_Dice_GameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3DA8DE82C963E8D008C6CEF /* Zilch_Dice_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DA8E0D2C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_Game" */;
+			buildPhases = (
+				A3DA8DE52C963E8D008C6CEF /* Sources */,
+				A3DA8DE62C963E8D008C6CEF /* Frameworks */,
+				A3DA8DE72C963E8D008C6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zilch_Dice_Game;
+			productName = Zilch_Dice_Game;
+			productReference = A3DA8DE92C963E8D008C6CEF /* Zilch_Dice_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3DA8DF82C963E8F008C6CEF /* Zilch_Dice_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DA8E102C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_GameTests" */;
+			buildPhases = (
+				A3DA8DF52C963E8F008C6CEF /* Sources */,
+				A3DA8DF62C963E8F008C6CEF /* Frameworks */,
+				A3DA8DF72C963E8F008C6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DA8DFB2C963E8F008C6CEF /* PBXTargetDependency */,
+			);
+			name = Zilch_Dice_GameTests;
+			productName = Zilch_Dice_GameTests;
+			productReference = A3DA8DF92C963E8F008C6CEF /* Zilch_Dice_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3DA8E022C963E8F008C6CEF /* Zilch_Dice_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DA8E132C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_GameUITests" */;
+			buildPhases = (
+				A3DA8DFF2C963E8F008C6CEF /* Sources */,
+				A3DA8E002C963E8F008C6CEF /* Frameworks */,
+				A3DA8E012C963E8F008C6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DA8E052C963E8F008C6CEF /* PBXTargetDependency */,
+			);
+			name = Zilch_Dice_GameUITests;
+			productName = Zilch_Dice_GameUITests;
+			productReference = A3DA8E032C963E8F008C6CEF /* Zilch_Dice_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3DA8DE12C963E8D008C6CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A3DA8DE82C963E8D008C6CEF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A3DA8DF82C963E8F008C6CEF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3DA8DE82C963E8D008C6CEF;
+					};
+					A3DA8E022C963E8F008C6CEF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3DA8DE82C963E8D008C6CEF;
+					};
+				};
+			};
+			buildConfigurationList = A3DA8DE42C963E8D008C6CEF /* Build configuration list for PBXProject "Zilch_Dice_Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3DA8DE02C963E8D008C6CEF;
+			productRefGroup = A3DA8DEA2C963E8D008C6CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3DA8DE82C963E8D008C6CEF /* Zilch_Dice_Game */,
+				A3DA8DF82C963E8F008C6CEF /* Zilch_Dice_GameTests */,
+				A3DA8E022C963E8F008C6CEF /* Zilch_Dice_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3DA8DE72C963E8D008C6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA8DF42C963E8E008C6CEF /* Preview Assets.xcassets in Resources */,
+				A3DA8DF12C963E8E008C6CEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8DF72C963E8F008C6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8E012C963E8F008C6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3DA8DE52C963E8D008C6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA8DEF2C963E8D008C6CEF /* ContentView.swift in Sources */,
+				A3DA8DED2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8DF52C963E8F008C6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA8DFE2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA8DFF2C963E8F008C6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA8E0A2C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift in Sources */,
+				A3DA8E082C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3DA8DFB2C963E8F008C6CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3DA8DE82C963E8D008C6CEF /* Zilch_Dice_Game */;
+			targetProxy = A3DA8DFA2C963E8F008C6CEF /* PBXContainerItemProxy */;
+		};
+		A3DA8E052C963E8F008C6CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3DA8DE82C963E8D008C6CEF /* Zilch_Dice_Game */;
+			targetProxy = A3DA8E042C963E8F008C6CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3DA8E0B2C963E8F008C6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3DA8E0C2C963E8F008C6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3DA8E0E2C963E8F008C6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zilch_Dice_Game/Preview Content\"";
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3DA8E0F2C963E8F008C6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zilch_Dice_Game/Preview Content\"";
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3DA8E112C963E8F008C6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zilch_Dice_Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zilch_Dice_Game";
+			};
+			name = Debug;
+		};
+		A3DA8E122C963E8F008C6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zilch_Dice_Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zilch_Dice_Game";
+			};
+			name = Release;
+		};
+		A3DA8E142C963E8F008C6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zilch_Dice_Game;
+			};
+			name = Debug;
+		};
+		A3DA8E152C963E8F008C6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 686L4TXLDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SedatYildiz.Zilch-Dice-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zilch_Dice_Game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3DA8DE42C963E8D008C6CEF /* Build configuration list for PBXProject "Zilch_Dice_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DA8E0B2C963E8F008C6CEF /* Debug */,
+				A3DA8E0C2C963E8F008C6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DA8E0D2C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DA8E0E2C963E8F008C6CEF /* Debug */,
+				A3DA8E0F2C963E8F008C6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DA8E102C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DA8E112C963E8F008C6CEF /* Debug */,
+				A3DA8E122C963E8F008C6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DA8E132C963E8F008C6CEF /* Build configuration list for PBXNativeTarget "Zilch_Dice_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DA8E142C963E8F008C6CEF /* Debug */,
+				A3DA8E152C963E8F008C6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3DA8DE12C963E8D008C6CEF /* Project object */;
+}
