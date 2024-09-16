@@ -213,5 +213,5 @@ struct GamePage: View {
 }
 
 #Preview {
-    GamePage(user1: .constant("Sedat"), user2: .constant("irem"))
+    GamePage(user1: .constant("name1"), user2: .constant("name2"))
 }
