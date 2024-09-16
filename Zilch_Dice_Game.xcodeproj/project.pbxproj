@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31FBB952C9797B600520D53 /* WinnerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FBB942C9797B600520D53 /* WinnerPage.swift */; };
 		A3DA8DED2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */; };
 		A3DA8DEF2C963E8D008C6CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */; };
 		A3DA8DF12C963E8E008C6CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DA8DF02C963E8E008C6CEF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		A3DA8DFE2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8DFD2C963E8F008C6CEF /* Zilch_Dice_GameTests.swift */; };
 		A3DA8E082C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8E072C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift */; };
 		A3DA8E0A2C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8E092C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift */; };
+		A3DA8E172C965779008C6CEF /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA8E162C965779008C6CEF /* GamePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A31FBB942C9797B600520D53 /* WinnerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerPage.swift; sourceTree = "<group>"; };
 		A3DA8DE92C963E8D008C6CEF /* Zilch_Dice_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zilch_Dice_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameApp.swift; sourceTree = "<group>"; };
 		A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		A3DA8E032C963E8F008C6CEF /* Zilch_Dice_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zilch_Dice_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DA8E072C963E8F008C6CEF /* Zilch_Dice_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameUITests.swift; sourceTree = "<group>"; };
 		A3DA8E092C963E8F008C6CEF /* Zilch_Dice_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zilch_Dice_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3DA8E162C965779008C6CEF /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				A3DA8DEC2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift */,
+				A3DA8E162C965779008C6CEF /* GamePage.swift */,
 				A3DA8DEE2C963E8D008C6CEF /* ContentView.swift */,
 				A3DA8DF02C963E8E008C6CEF /* Assets.xcassets */,
 				A3DA8DF22C963E8E008C6CEF /* Preview Content */,
+				A31FBB942C9797B600520D53 /* WinnerPage.swift */,
 			);
 			path = Zilch_Dice_Game;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				A3DA8DEF2C963E8D008C6CEF /* ContentView.swift in Sources */,
 				A3DA8DED2C963E8D008C6CEF /* Zilch_Dice_GameApp.swift in Sources */,
+				A3DA8E172C965779008C6CEF /* GamePage.swift in Sources */,
+				A31FBB952C9797B600520D53 /* WinnerPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
